@@ -26,6 +26,7 @@
       "name": "David Hayes",
       "description": "Private music teacher with over 50 years of teaching experience, including 40 years as Head of Music across five schools. MA Music Education, BA (Hons), GRSM (Manchester). Enhanced DBS checked.",
       "email": "musichelpreading@gmail.com",
+      "sameAs": ["https://www.facebook.com/profile.php?id=61597132100873"],
       "telephone": "+441189617438",
       "knowsAbout": [
         "Private piano lessons for children and adults, beginners to advanced",
@@ -207,7 +208,9 @@
     .brand small{display:block;color:#b7dcd2;font-size:.7rem;letter-spacing:.11em;font-weight:650;text-transform:uppercase;margin-top:3px}
     .navlinks{display:flex;gap:23px;align-items:center;flex-wrap:wrap}
     .navlinks a{color:#fff;text-decoration:none;font-size:.88rem;font-weight:650}
-    .navlinks a:last-child{background:var(--gold);color:#193540;padding:10px 16px;border-radius:100px}
+    .navlinks a[href="#contact"]{background:var(--gold);color:#193540;padding:10px 16px;border-radius:100px}
+    .navlinks a.facebook-link{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;flex-shrink:0;border-radius:50%;background:#1877f2;color:white}
+    .facebook-link svg{width:100%;height:100%;display:block}
     .hero{background:linear-gradient(125deg,#142e3b 0%,#1f4855 80%);color:#fff;overflow:hidden}
     .hero-grid{display:grid;grid-template-columns:1.09fr .91fr;align-items:center;gap:7%;padding:74px 0 88px}
     .eyebrow{color:#b8e3d7;text-transform:uppercase;font-size:.78rem;font-weight:750;letter-spacing:.14em;margin:0 0 17px}
@@ -256,7 +259,7 @@
     footer{background:var(--navy);color:#c9dfda;padding:23px 0;font-size:.83rem}
     footer .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}footer a{color:#e8f5f1}
     @media(max-width:850px){.hero-grid,.split,.contact-grid{grid-template-columns:1fr;gap:33px}.hero-grid{padding:55px 0}.hero-visual{max-width:580px;grid-template-columns:1fr 1fr;transform:none}.photo-placeholder,.photo-placeholder.small{min-height:180px;margin:0}.cards{grid-template-columns:1fr 1fr}}
-    @media(max-width:620px){body{font-size:16px}.container{width:min(100% - 32px,1120px)}.topbar{align-items:flex-start;padding:18px 0;flex-direction:column;gap:13px}.navlinks{gap:12px}.navlinks a{font-size:.78rem}.navlinks a:last-child{padding:8px 12px}.hero-grid{padding:43px 0 53px}h1{font-size:2.65rem}.section{padding:55px 0}.cards,.fees,.faq,.details{grid-template-columns:1fr}.hero-visual{grid-template-columns:1fr 1fr;gap:10px}.photo-placeholder,.photo-placeholder.small{min-height:155px;padding:14px}.photo-placeholder svg{width:60px;height:50px}.photo-placeholder span{font-size:.7rem}.fee-panel{padding:25px}.fees{gap:8px}.fee{padding:15px}}
+    @media(max-width:620px){body{font-size:16px}.container{width:min(100% - 32px,1120px)}.topbar{align-items:flex-start;padding:18px 0;flex-direction:column;gap:13px}.navlinks{gap:12px}.navlinks a{font-size:.78rem}.navlinks a[href="#contact"]{padding:8px 12px}.hero-grid{padding:43px 0 53px}h1{font-size:2.65rem}.section{padding:55px 0}.cards,.fees,.faq,.details{grid-template-columns:1fr}.hero-visual{grid-template-columns:1fr 1fr;gap:10px}.photo-placeholder,.photo-placeholder.small{min-height:155px;padding:14px}.photo-placeholder svg{width:60px;height:50px}.photo-placeholder span{font-size:.7rem}.fee-panel{padding:25px}.fees{gap:8px}.fee{padding:15px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
 
     .hero-photo{display:block;width:100%;height:auto;border-radius:17px;box-shadow:var(--shadow)}
@@ -270,6 +273,7 @@
     <a class="brand" href="#top">David Hayes <small>Music Tuition · Reading–Wokingham &amp; Online</small></a>
     <nav class="navlinks" aria-label="Main navigation">
       <a href="#tuition">Tuition</a><a href="#about">About</a><a href="#fees">Fees</a><a href="#questions">Questions</a><a href="#contact">Enquire</a>
+      <a class="facebook-link" href="https://www.facebook.com/profile.php?id=61597132100873" target="_blank" rel="noopener noreferrer" aria-label="Visit my professional Facebook page (opens in a new tab)" title="Visit my professional Facebook page"><svg viewBox="0 0 36 36" aria-hidden="true" focusable="false"><circle cx="18" cy="18" r="18" fill="#1877F2"/><path d="M20.6 33V20.5H25L25.7 15.5H20.6V12.3C20.6 10.8 21 9.8 23.2 9.8H26V5.3C25.5 5.2 23.8 5 21.8 5C17.6 5 14.7 7.6 14.7 12.3V15.5H10V20.5H14.7V33Z" fill="white"/></svg></a>
     </nav>
   </div>
 </header>
@@ -286,8 +290,8 @@
         <a class="btn btn-primary" href="#contact">Enquire about lessons &rarr;</a>
       </div>
       <div class="hero-visual" aria-label="Piano and electronic keyboard">
-        <img class="hero-photo" src="image1.jpg" alt="Marshall and Rose upright piano with music, adjustable stool and Swan chair" decoding="async">
-        <img class="hero-photo small" src="image2.jpg" alt="Yamaha electronic keyboard with sheet music and adjustable stool" decoding="async">
+        <img class="hero-photo" src="Github1.png" alt="Marshall and Rose upright piano with music, adjustable stool and Swan chair" decoding="async">
+        <img class="hero-photo small" src="Github2.jpg" alt="Yamaha electronic keyboard with sheet music and adjustable stool" decoding="async">
       </div>
     </div>
   </section>
@@ -350,6 +354,7 @@
       <div>
         <div class="contact-method"><span class="label">Telephone</span><a href="tel:+441189617438">0118 961 7438</a><p class="muted" style="margin:7px 0 0">If I cannot answer, please leave your <strong>name and telephone number</strong> on the answering machine so I can return your call.</p></div>
         <div class="contact-method"><span class="label">Email</span><a href="mailto:musichelpreading@gmail.com">musichelpreading@gmail.com</a><p class="muted" style="margin:7px 0 0">Please include a few details about the pupil and the tuition you are interested in.</p></div>
+        <div class="contact-method"><span class="label">Facebook</span><a href="https://www.facebook.com/profile.php?id=61597132100873" target="_blank" rel="noopener noreferrer">Visit my professional Facebook page</a><p class="muted" style="margin:7px 0 0">Follow my music tuition page for updates.</p></div>
       </div>
     </div>
   </section>
